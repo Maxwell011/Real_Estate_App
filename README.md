@@ -1,38 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Realtor - Real Estate App
 
-## Getting Started
+**Realtor** is a comprehensive real estate application designed to help users find homes for sale and rent. This README.md file provides an overview of the project, its features, installation instructions, and other relevant information.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Screenshots
+![Project Screenshot](./assets/Screenshot%20(76).png)
+![Project Screenshot](./assets/Screenshot%20(77).png)
+![Project Screenshot](./assets/Screenshot%20(78).png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **Home Listings:** Browse through a vast collection of homes available for sale and rent.
+- **Search and Filter:** Utilize powerful search and filtering options to find properties based on location, price range, amenities, and more.
+- **Property Details:** View detailed information about each property, including description, images, specifications, and contact information for the realtor or owner.
+- **Favorites:** Save properties to your favorites list for quick access and comparisons.
+- **User Accounts:** Sign up for an account to save preferences, receive personalized recommendations, and manage favorite properties.
+- **Map Integration:** Visualize property locations on an interactive map.
+- **Contact Realtor:** Easily get in touch with the listing realtor or property owner for inquiries and scheduling viewings.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<br/>
+💻 Getting Started
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+In order to run this project you need:
+- Visual Studio Code
+- Git
+- Next
+- React
+- Javascript
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run the Realtor app locally, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone the repository:
 
-## Deploy on Vercel
+    ```bash
+    git clone https://github.com/your-Maxwell011/realtor-app.git
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Navigate to the project directory:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    ```bash
+    cd realtor-app
+    ```
+
+3. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+5. Open your web browser and visit http://localhost:3000 to access the Realtor app.
+
+## Technologies Used
+
+- **Front-end:** HTML, CSS, JavaScript, React.js, Next.js, Chakara UI
+- **Map Integration:** Rapid API
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **ORJI MAXWELL**
+
+ - GitHub: [@githubhandle](https://github.com/Maxwell011)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemeka-maxwell/)
+- Twitter: [Maxwellchu2Orji](https://Maxwellchu2Orji)
+
+## Contributing
+
+Contributions to the Realtor project are welcome! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make the necessary changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request detailing your changes.
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+## Contact
+
+If you have any questions or suggestions regarding the Realtor project, please contact us at [email protected]
+
+Happy house hunting!
