@@ -1,39 +1,40 @@
-import { useContext } from 'react'
-import Image from 'next/image'
-import { Box, Icon, Flex } from '@chakra-ui/react'
-import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu'
+import { useContext } from "react";
+import Image from "next/image";
+import { Box, Icon, Flex } from "@chakra-ui/react";
+import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
 const LeftArrow = () => {
- const { scrollPrev } = useContext(VisibilityContext)
+  const { scrollPrev } = useContext(VisibilityContext);
 
- return (
-   <Flex justifyContent='center' alignItems='center' marginRight='1'>
-     <Icon
-       as={FaArrowAltCircleLeft}
-       onclick={scrollPrev}
-       fontSize='2xl'
-       cursor='pointer'
-     />
-   </Flex>
- );
-}
+  return (
+    <Flex justifyContent='center' alignItems='center' marginRight='1'>
+      <Icon
+        as={FaArrowAltCircleLeft}
+        onClick={() => scrollPrev()}
+        fontSize='2xl'
+        cursor='pointer'
+        d={["none", "none", "none", "block"]}
+      />
+    </Flex>
+  );
+};
 
 const RightArrow = () => {
- const { scrollNext } = useContext(VisibilityContext)
+  const { scrollNext } = useContext(VisibilityContext);
 
- return (
-  <Flex justifyContent='center' alignItems='center' marginRight='1'>
-   <Icon 
-   as={FaArrowAltCircleRight}
-   onclick={scrollPrev}
-   fontSize='2xl'
-   cursor='pointer'
-   />
-  </Flex>
- )
-}
-
+  return (
+    <Flex justifyContent='center' alignItems='center' marginLeft='1'>
+      <Icon
+        as={FaArrowAltCircleRight}
+        onClick={() => scrollNext()}
+        fontSize='2xl'
+        cursor='pointer'
+        d={["none", "none", "none", "block"]}
+      />
+    </Flex>
+  );
+};
 export default function ImageSrollbar({ data }) {
   return (
     <ScrollMenu
